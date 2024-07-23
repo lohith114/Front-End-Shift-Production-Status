@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+.header, .cell {
+    padding: 10px;
+    text-align: center;
+}
+.header {
+    background-color: #4682B4;
+    color: white;
+    font-weight: bold;
+}
+.sub-header {
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-header {
+    background-color: #4682B4;
+    color: white;
+    font-weight: bold;
+}
+.station-headers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px; /* Adjust the gap between headers */
+}
+.module-header {
+    background-color: rgb(0, 255, 208);
+    color: black;
+    font-weight: bold;
+}
+.PACK-header {
+    background-color: rgba(166, 0, 255, 0.438);
+    color: black;
+    font-weight: bold;
+}
+.EOL-header {
+    background-color: rgba(246, 255, 0, 0.723);
+    color: black;
+    font-weight: bold;
+}
+.ALT-header {
+    background-color: rgba(0, 162, 255, 0.727);
+    color: black;
+    font-weight: bold;
+}
+.gap-cell {
+    color: red;
+    font-weight: bold;
+}
+.data-cell {
+    background-color: #E0FFFF;
+}
+.data-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjusted to fit the data columns */
+    gap: 6px;
+    text-align: center;
+    background-color: rgba(240, 200, 244, 0.855);
+}
+.container{ display: flex; align-items: center; background: #c19ccd; margin-top: 40px; }
+.container span{ position: relative; display: inline-block; flex-shrink: 0; padding: 8px 20px; background: rgb(191, 255, 0); font-weight: bold; color: #080808; overflow: hidden; clip-path: polygon(0 0, 90% 0, 100% 100%, 0 100%);}
+.scroll-left span{ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%); }
